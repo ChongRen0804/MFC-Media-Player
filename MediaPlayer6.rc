@@ -1,0 +1,299 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MediaPlayer6.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MediaPlayer6.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MediaPlayer6"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MediaPlayer6 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2015",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MEDIAPLAYER6_DIALOG DIALOGEX 0, 0, 486, 290
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MediaPlayer6"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_OCX1,"{6BF52A52-394A-11D3-B153-00C04F79FAA6}",
+                    WS_TABSTOP,20,7,275,175
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_SMALLICON | 
+                    WS_BORDER | WS_TABSTOP,385,7,94,276
+    PUSHBUTTON      "打开",IDC_BUTTON1,15,192,36,22
+    PUSHBUTTON      "退出",IDC_BUTTON2,195,192,36,22
+    PUSHBUTTON      "建立列表",IDC_BUTTON3,308,131,65,25
+    PUSHBUTTON      "清空列表",IDC_BUTTON4,307,165,66,24
+    PUSHBUTTON      "返回",IDC_BUTTON5,307,31,64,22
+    PUSHBUTTON      "删除",IDC_BUTTON6,308,62,64,23
+    PUSHBUTTON      "添加歌曲",IDC_BUTTON7,307,199,67,25
+    PUSHBUTTON      "编辑列表名",IDC_BUTTON8,308,97,65,25
+    GROUPBOX        "列表选项",IDC_STATIC,299,15,82,224
+    PUSHBUTTON      "关于",IDC_ABOUT,232,192,36,22
+    PUSHBUTTON      "播放",IDC_PLAY,51,192,36,22
+    PUSHBUTTON      "暂停",IDC_PAUSE,87,192,36,22
+    PUSHBUTTON      "停止",IDC_STOP,123,192,36,22
+    PUSHBUTTON      "全屏",IDC_FULLSCREEN,159,192,36,22
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    LTEXT           "列表名称",IDC_STATIC,23,20,41,18
+    EDITTEXT        IDC_EDIT1,77,17,73,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_BUTTON1,28,64,40,18
+    PUSHBUTTON      "取消",IDC_BUTTON2,105,65,44,18
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,21,69,50,14
+    PUSHBUTTON      "取消",IDCANCEL,110,68,50,14
+    LTEXT           "名称",IDC_STATIC,30,20,40,14
+    EDITTEXT        IDC_EDIT1,81,17,70,17,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,22,64,50,14
+    PUSHBUTTON      "取消",IDCANCEL,105,63,50,14
+    LTEXT           "更正名",IDC_STATIC,28,18,39,20
+    EDITTEXT        IDC_EDIT1,97,21,58,15,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MediaPlayer6 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MediaPlayer6\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MediaPlayer6.EXE\0"
+            VALUE "ProductName", "MediaPlayer6 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MEDIAPLAYER6_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 479
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MEDIAPLAYER6_DIALOG DLGINIT
+BEGIN
+    IDC_OCX1, 0x376, 168, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0005, 
+0x0000, 0x0000, 0x0000, 0x3ff0, 0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 
+0x0000, 0x000b, 0xffff, 0x0003, 0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0003, 0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 
+0x000a, 0x0000, 0x006e, 0x006f, 0x006e, 0x0065, 0x0000, 0x000b, 0x0000, 
+0x000b, 0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 
+0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x2aaf, 
+0x0000, 0x1b2f, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MediaPlayer6(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MediaPlayer6.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

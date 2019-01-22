@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MediaPlayer6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\任翀\AppData\Local\Temp\RSP8926.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MediaPlayer6.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"A:\Project\MediaPlayer6\MediaPlayer6\MediaPlayer6Dlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\任翀\AppData\Local\Temp\RSP8926.tmp"" 
+Creating temporary file "C:\Users\任翀\AppData\Local\Temp\RSP8927.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MediaPlayer6.pdb" /debug /machine:I386 /out:"Debug/MediaPlayer6.exe" /pdbtype:sept 
+.\Debug\Dialog1.obj
+.\Debug\Dialog2.obj
+.\Debug\Dialog3.obj
+.\Debug\MediaPlayer6.obj
+.\Debug\MediaPlayer6Dlg.obj
+.\Debug\StdAfx.obj
+.\Debug\wmpcdrom.obj
+.\Debug\wmpcdromcollection.obj
+.\Debug\wmpclosedcaption.obj
+.\Debug\wmpcontrols.obj
+.\Debug\wmpdvd.obj
+.\Debug\wmperror.obj
+.\Debug\wmperroritem.obj
+.\Debug\wmpmedia.obj
+.\Debug\wmpmediacollection.obj
+.\Debug\wmpnetwork.obj
+.\Debug\wmpplayer4.obj
+.\Debug\wmpplayerapplication.obj
+.\Debug\wmpplaylist.obj
+.\Debug\wmpplaylistarray.obj
+.\Debug\wmpplaylistcollection.obj
+.\Debug\wmpsettings.obj
+.\Debug\wmpstringcollection.obj
+.\Debug\MediaPlayer6.res
+]
+Creating command line "link.exe @"C:\Users\任翀\AppData\Local\Temp\RSP8927.tmp""
+<h3>Output Window</h3>
+Compiling...
+MediaPlayer6Dlg.cpp
+Linking...
+Creating temporary file "C:\Users\任翀\AppData\Local\Temp\RSP8A8F.tmp" with contents
+[
+/nologo /o"Debug/MediaPlayer6.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Dialog1.sbr
+.\Debug\Dialog2.sbr
+.\Debug\Dialog3.sbr
+.\Debug\MediaPlayer6.sbr
+.\Debug\MediaPlayer6Dlg.sbr
+.\Debug\wmpcdrom.sbr
+.\Debug\wmpcdromcollection.sbr
+.\Debug\wmpclosedcaption.sbr
+.\Debug\wmpcontrols.sbr
+.\Debug\wmpdvd.sbr
+.\Debug\wmperror.sbr
+.\Debug\wmperroritem.sbr
+.\Debug\wmpmedia.sbr
+.\Debug\wmpmediacollection.sbr
+.\Debug\wmpnetwork.sbr
+.\Debug\wmpplayer4.sbr
+.\Debug\wmpplayerapplication.sbr
+.\Debug\wmpplaylist.sbr
+.\Debug\wmpplaylistarray.sbr
+.\Debug\wmpplaylistcollection.sbr
+.\Debug\wmpsettings.sbr
+.\Debug\wmpstringcollection.sbr]
+Creating command line "bscmake.exe @"C:\Users\任翀\AppData\Local\Temp\RSP8A8F.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MediaPlayer6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
